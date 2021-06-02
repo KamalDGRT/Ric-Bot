@@ -39,8 +39,9 @@ class Discord(commands.Bot):
         """
         Loads the cogs that handles individual commands
         """
+
+        # Getting the `moudles` directory's path
         cogs_dir = join(dirname(dirname(__file__)), "modules")
-        print(cogs_dir)
 
         # Getting all the python files present in `cogs` to a List
         pythonFiles = [

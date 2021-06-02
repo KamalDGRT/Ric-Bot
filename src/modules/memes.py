@@ -7,7 +7,7 @@ Function:
     setup(client)
 """
 import random
-from .settings import loadReddit, getPostLimit, getSubreddits
+from utils.settings import loadReddit, getPostLimit, getSubreddits
 from discord.ext import commands
 
 

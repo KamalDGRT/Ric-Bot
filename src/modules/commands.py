@@ -22,7 +22,6 @@ class Commands(commands.Cog):
 
     @commands.Cog.listener()
     async def on_command_error(self, ctx, error):
-        print(ctx.command.name + ' was invoked correctly.')
         print(error)
 
     @commands.Cog.listener()

@@ -30,7 +30,7 @@ commands
     !help:\t Help menu
     !ping:\t Replies with pong and latency
     !memes:\t Fetchs a random meme from reddit
-    !quotes:\t Displays a quote
+    !quote:\t Displays a quote
 """
 
 
